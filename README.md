@@ -3,6 +3,7 @@
 ## A repository to clone for riotjs based projects.
 
 This uses a directory strucutre for tags
+<pre>
 app
  |- tags
       |-elements
@@ -13,6 +14,6 @@ app
       |     |-tag-name
       |              |- tag-name.tag
       |              |- tag-name.scss      
-
+</pre>
 
 Grunt tasks are added that concatenates all the scss files from elements and pages directories before runnings the ordinary webapp tasks.
