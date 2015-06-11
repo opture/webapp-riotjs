@@ -57,7 +57,7 @@ module.exports = function (grunt) {
         tasks: ['newer:copy:styles', 'autoprefixer']
       },
       riottags:{
-        files: ['<%= config.app %>/tags/{,*/}*.tag'],
+        files: ['<%= config.app %>/tags/**/*.tag'],
         tasks: ['riot'],
         options: {
           livereload: '<%= connect.options.livereload %>'
